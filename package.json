@@ -8,6 +8,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
+    "set-modules": "node updateModules.cjs",
     "ag-charts-community": "file:~/ag-charts-community-10.2.0-beta.20241003.tgz",
     "ag-charts-enterprise": "file:~/ag-charts-enterprise-10.2.0-beta.20241003.tgz",
     "ag-charts-locale": "file:~/ag-charts-locale-10.2.0-beta.20241003.tgz",
