@@ -9,16 +9,16 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "set-modules": "node updateModules.cjs",
-    "ag-charts-community": "file:~/ag-charts-community-10.2.0-beta.20241003.tgz",
-    "ag-charts-enterprise": "file:~/ag-charts-enterprise-10.2.0-beta.20241003.tgz",
-    "ag-charts-locale": "file:~/ag-charts-locale-10.2.0-beta.20241003.tgz",
+    "module-stats": "npm i --registry http://52.50.158.57:4873/ && node runModuleCombinations.cjs",
     "ag-grid-community": "32.3.0",
-    "ag-grid-react": "32.3.0"
-  },
-  "dependencies": {
+    "ag-grid-react": "32.3.0",
     "ag-charts-types": "file:~/ag-charts-types-10.3.1-beta.20241103.tgz",
     "ag-grid-community": "file:~/ag-grid-community-32.2.0.tgz",
-    "ag-grid-react": "file:~/ag-grid-react-32.2.0.tgz",
+    "ag-grid-react": "file:~/ag-grid-react-32.2.0.tgz"
+  },
+  "dependencies": {
+    "ag-grid-react": "latest",
+    "ag-grid-community": "latest",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },

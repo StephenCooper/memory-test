@@ -1,0 +1,33 @@
+[
+  {
+    "modules": [
+      "ClientSideRowModelModule"
+    ],
+    "fileSize": 841.9,
+    "gzipSize": 223
+  },
+  {
+    "modules": [
+      "ClientSideRowModelCoreModule"
+    ],
+    "fileSize": 369.95,
+    "gzipSize": 97.58
+  },
+  {
+    "modules": [
+      "ClientSideRowModelCoreModule",
+      "SortModule"
+    ],
+    "fileSize": 379.2,
+    "gzipSize": 100.18
+  },
+  {
+    "modules": [
+      "ClientSideRowModelCoreModule",
+      "SortModule",
+      "FilterModule"
+    ],
+    "fileSize": 517.26,
+    "gzipSize": 135.47
+  }
+]
