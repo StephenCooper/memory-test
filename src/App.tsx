@@ -1,24 +1,14 @@
 import {
-  // ClientSideRowModelModule,
   ColDef,
   GridPreDestroyedEvent,
   GridState,
-  // ModuleRegistry,
-  // SortModule,
+  ModuleRegistry,
   StateUpdatedEvent,
   themeQuartz
 } from "ag-grid-community";
-// import "ag-grid-community/styles/ag-grid.css";
-// import "ag-grid-community/styles/ag-theme-quartz.css";
 import { AgGridReact } from "ag-grid-react";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 
-// ColumnGroupHeaderCompModule
-// import {
-//   MenuModule,
-//   // setupCommunityIntegratedCharts,
-//   setupEnterpriseIntegratedCharts,
-// } from "ag-grid-enterprise";
 
 export interface IOlympicData {
   athlete: string;
@@ -33,49 +23,12 @@ export interface IOlympicData {
   total: number;
 }
 
-// import {
-//   AgCharts,
-//   VERSION,
-//   _ModuleSupport,
-//   _Scale,
-//   _Scene,
-//   _Theme,
-//   _Util,
-//   time,
-// } from "ag-charts-community";
-// import { setupCommunityModules } from 'ag-charts-community/modules';
-// import { setupEnterpriseModules } from "ag-charts-enterprise/modules";
-
-// const chartCode = {
-//   AgCharts,
-//   VERSION,
-//   _ModuleSupport,
-//   _Scale,
-//   _Scene,
-//   _Theme,
-//   _Util,
-//   time,
-// };
-// setupCommunityIntegratedCharts({
-//     ...chartCode,
-//     setupModules: () => {
-//         setupCommunityModules();
-//     },
-// });
-// setupEnterpriseIntegratedCharts({
-//   ...chartCode,
-//   setupModules: () => {
-//     setupEnterpriseModules();
-//   },
-// });
 
 
-// import { ClientSideRowModelCoreModule } from 'ag-grid-community';
-// import { themeQuartz } from 'ag-grid-community';
 
-  // CommunityFeaturesModule, ColumnHeaderCompModule,ClientSideRowModelCoreModule
-  // ModuleRegistry.registerModules([ClientSideRowModelCoreModule , SortModule]);
-  // ModuleRegistry.registerModules([ClientSideRowModelModule ]);
+ import { /** __PLACEHOLDER__START__ */ ClientSideRowModelCoreModule, SortModule, FilterModule /** __PLACEHOLDER__END__ */ } from 'ag-grid-community';
+
+  ModuleRegistry.registerModules([/** __PLACEHOLDER__START__ */ ClientSideRowModelCoreModule, SortModule, FilterModule /** __PLACEHOLDER__END__ */ ]);
 
 export const App = () => {
   const gridRef = useRef<AgGridReact<IOlympicData>>(null);
