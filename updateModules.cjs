@@ -11,15 +11,91 @@ const placeholderEndRgx = "/\\*\\* __PLACEHOLDER__END__ \\*/";
 const placeholderStart = "/** __PLACEHOLDER__START__ */";
 const placeholderEnd = "/** __PLACEHOLDER__END__ */";
 
+const entPlaceholderStartRgx = "/\\*\\* __ENTERPRISE_PLACEHOLDER__START__ \\*/";
+const entPlaceholderEndRgx = "/\\*\\* __ENTERPRISE_PLACEHOLDER__END__ \\*/";
+const entPlaceholderStart = "/** __ENTERPRISE_PLACEHOLDER__START__ */";
+const entPlaceholderEnd = "/** __ENTERPRISE_PLACEHOLDER__END__ */";
+
+const ENTERPRISE_MODULES = [
+   'AdvancedFilterApiModule',
+     'AdvancedFilterCoreModule',
+     'AdvancedFilterModule',
+     'AggregationModule',
+     'ClientSideRowModelExpansionModule',
+     'ClipboardApiModule',
+     'ClipboardCoreModule',
+     'ClipboardModule',
+     'ColumnChooserModule',
+     'ColumnMenuModule',
+     'ColumnsToolPanelCoreModule',
+     'ColumnsToolPanelModule',
+     'ColumnsToolPanelRowGroupingModule',
+     'ContextMenuModule',
+     'EnterpriseCoreModule',
+     'ExcelExportApiModule',
+     'ExcelExportCoreModule',
+     'ExcelExportModule',
+     'FiltersToolPanelModule',
+     'GridChartsApiModule',
+     'GridChartsCoreModule',
+     'GridChartsEnterpriseFeaturesModule',
+     'GridChartsModule',
+     'GroupCellRendererModule',
+     'GroupColumnModule',
+     'GroupFilterModule',
+     'GroupFloatingFilterModule',
+     'LoadingCellRendererModule',
+     'MasterDetailApiModule',
+     'MasterDetailCoreModule',
+     'MasterDetailModule',
+     'MenuApiModule',
+     'MenuCoreModule',
+     'MenuItemModule',
+     'MenuModule',
+     'MultiFilterCoreModule',
+     'MultiFilterModule',
+     'MultiFloatingFilterModule',
+     'PivotApiModule',
+     'PivotCoreModule',
+     'PivotModule',
+     'RangeSelectionApiModule',
+     'RangeSelectionCoreModule',
+     'RangeSelectionFillHandleModule',
+     'RangeSelectionModule',
+     'RangeSelectionRangeHandleModule',
+     'RichSelectModule',
+     'RowGroupingApiModule',
+     'RowGroupingCoreModule',
+     'RowGroupingModule',
+     'RowGroupingNoPivotModule',
+     'RowGroupingPanelModule',
+     'ServerSideRowModelApiModule',
+     'ServerSideRowModelCoreModule',
+     'ServerSideRowModelModule',
+     'ServerSideRowModelRowGroupingModule',
+     'ServerSideRowModelRowSelectionModule',
+     'ServerSideRowModelSortModule',
+     'SetFilterCoreModule',
+     'SetFilterModule',
+     'SetFloatingFilterModule',
+     'SideBarApiModule',
+     'SideBarCoreModule',
+     'SideBarModule',
+     'SideBarSharedModule',
+     'SkeletonCellRendererModule',
+     'SparklinesModule',
+     'StatusBarApiModule',
+     'StatusBarCoreModule',
+     'StatusBarModule',
+     'StatusBarSelectionModule',
+     'TreeDataCoreModule',
+     'TreeDataModule',
+     'ViewportRowModelCoreModule',
+     'ViewportRowModelModule',
+];
+
 // Get modules from command line arguments
 const modules = process.argv.slice(2);
-
-if (modules.length === 0) {
-  console.error(
-    "No modules provided. Please provide a list of modules as command line arguments."
-  );
-  process.exit(1);
-}
 
 fs.readFile(filePath, "utf8", (err, data) => {
   if (err) {
@@ -27,14 +103,31 @@ fs.readFile(filePath, "utf8", (err, data) => {
     return;
   }
 
-  const replacement = modules.join(", ");
+  const communityModules = modules.filter(
+    (module) => !ENTERPRISE_MODULES.includes(module)
+  );
+  const enterpriseModules = modules.filter((module) =>
+    ENTERPRISE_MODULES.includes(module)
+  );
+
+  const replacement = communityModules.join(", ");
   const regex = new RegExp(
     `${placeholderStartRgx}[\\s\\S]*?${placeholderEndRgx}`,
     "g"
   );
-  const result = data.replace(
+  let result = data.replace(
     regex,
     `${placeholderStart} ${replacement} ${placeholderEnd}`
+  );
+
+  const entReplacement = enterpriseModules.join(", ");
+  const entRegex = new RegExp(
+    `${entPlaceholderStartRgx}[\\s\\S]*?${entPlaceholderEndRgx}`,
+    "g"
+  );
+  result = data.replace(
+    entRegex,
+    `${entPlaceholderStart} ${entReplacement} ${entPlaceholderEnd}`
   );
 
   fs.writeFile(filePath, result, "utf8", (err) => {
