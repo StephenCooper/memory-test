@@ -1,33 +1,1472 @@
 [
   {
+    "modules": [],
+    "selfSize": 337.42,
+    "fileSize": 337.42,
+    "gzipSize": 88.44
+  },
+  {
     "modules": [
-      "ClientSideRowModelModule"
+      "AlignedGridsModule"
     ],
-    "fileSize": 841.9,
-    "gzipSize": 223
+    "selfSize": 3.16,
+    "fileSize": 340.58,
+    "gzipSize": 89.29
+  },
+  {
+    "modules": [
+      "AnimateShowChangeCellRendererModule"
+    ],
+    "selfSize": 1.67,
+    "fileSize": 339.09,
+    "gzipSize": 88.92
+  },
+  {
+    "modules": [
+      "AnimateSlideCellRendererModule"
+    ],
+    "selfSize": 1.4,
+    "fileSize": 338.82,
+    "gzipSize": 88.83
+  },
+  {
+    "modules": [
+      "AnimationFrameModule"
+    ],
+    "selfSize": 2.23,
+    "fileSize": 339.65,
+    "gzipSize": 89.09
+  },
+  {
+    "modules": [
+      "CellApiModule"
+    ],
+    "selfSize": 0.29,
+    "fileSize": 337.71,
+    "gzipSize": 88.54
+  },
+  {
+    "modules": [
+      "CellFlashModule"
+    ],
+    "selfSize": 1,
+    "fileSize": 338.42,
+    "gzipSize": 88.73
+  },
+  {
+    "modules": [
+      "CellRendererFunctionModule"
+    ],
+    "selfSize": 0.49,
+    "fileSize": 337.91,
+    "gzipSize": 88.59
+  },
+  {
+    "modules": [
+      "CellStyleModule"
+    ],
+    "selfSize": 2.52,
+    "fileSize": 339.94,
+    "gzipSize": 89.1
+  },
+  {
+    "modules": [
+      "ChangeDetectionModule"
+    ],
+    "selfSize": 2.57,
+    "fileSize": 339.99,
+    "gzipSize": 89.13
+  },
+  {
+    "modules": [
+      "CheckboxCellRendererModule"
+    ],
+    "selfSize": 9.58,
+    "fileSize": 347,
+    "gzipSize": 91.04
+  },
+  {
+    "modules": [
+      "ClientSideRowModelApiModule"
+    ],
+    "selfSize": 32.78,
+    "fileSize": 370.2,
+    "gzipSize": 97.55
   },
   {
     "modules": [
       "ClientSideRowModelCoreModule"
     ],
-    "fileSize": 369.95,
-    "gzipSize": 97.58
+    "selfSize": 30.9,
+    "fileSize": 368.32,
+    "gzipSize": 97.1
   },
   {
     "modules": [
-      "ClientSideRowModelCoreModule",
-      "SortModule"
+      "ClientSideRowModelFilterModule"
     ],
-    "fileSize": 379.2,
-    "gzipSize": 100.18
+    "selfSize": 13.24,
+    "fileSize": 350.66,
+    "gzipSize": 91.12
   },
   {
     "modules": [
-      "ClientSideRowModelCoreModule",
-      "SortModule",
+      "ClientSideRowModelModule"
+    ],
+    "selfSize": 508.41,
+    "fileSize": 845.83,
+    "gzipSize": 223.98
+  },
+  {
+    "modules": [
+      "ClientSideRowModelSortModule"
+    ],
+    "selfSize": 42.67,
+    "fileSize": 380.09,
+    "gzipSize": 100.42
+  },
+  {
+    "modules": [
+      "ColumnAnimationModule"
+    ],
+    "selfSize": 1.41,
+    "fileSize": 338.83,
+    "gzipSize": 88.77
+  },
+  {
+    "modules": [
+      "ColumnApiModule"
+    ],
+    "selfSize": 1.58,
+    "fileSize": 339,
+    "gzipSize": 88.82
+  },
+  {
+    "modules": [
+      "ColumnAutosizeApiModule"
+    ],
+    "selfSize": 8.06,
+    "fileSize": 345.48,
+    "gzipSize": 90.68
+  },
+  {
+    "modules": [
+      "ColumnAutosizeCoreModule"
+    ],
+    "selfSize": 7.61,
+    "fileSize": 345.03,
+    "gzipSize": 90.58
+  },
+  {
+    "modules": [
+      "ColumnAutosizeModule"
+    ],
+    "selfSize": 8.11,
+    "fileSize": 345.53,
+    "gzipSize": 90.69
+  },
+  {
+    "modules": [
+      "ColumnFilterApiModule"
+    ],
+    "selfSize": 38.96,
+    "fileSize": 376.38,
+    "gzipSize": 98.4
+  },
+  {
+    "modules": [
+      "ColumnFilterMenuModule"
+    ],
+    "selfSize": 43.99,
+    "fileSize": 381.41,
+    "gzipSize": 99.94
+  },
+  {
+    "modules": [
+      "ColumnFilterModule"
+    ],
+    "selfSize": 37.19,
+    "fileSize": 374.61,
+    "gzipSize": 98.02
+  },
+  {
+    "modules": [
+      "ColumnFlexModule"
+    ],
+    "selfSize": 1.53,
+    "fileSize": 338.95,
+    "gzipSize": 89.02
+  },
+  {
+    "modules": [
+      "ColumnGroupApiModule"
+    ],
+    "selfSize": 12.21,
+    "fileSize": 349.63,
+    "gzipSize": 91.98
+  },
+  {
+    "modules": [
+      "ColumnGroupCoreModule"
+    ],
+    "selfSize": 11.09,
+    "fileSize": 348.51,
+    "gzipSize": 91.73
+  },
+  {
+    "modules": [
+      "ColumnGroupHeaderCompModule"
+    ],
+    "selfSize": 2.39,
+    "fileSize": 339.81,
+    "gzipSize": 89.07
+  },
+  {
+    "modules": [
+      "ColumnGroupModule"
+    ],
+    "selfSize": 12.26,
+    "fileSize": 349.68,
+    "gzipSize": 91.99
+  },
+  {
+    "modules": [
+      "ColumnHeaderCompModule"
+    ],
+    "selfSize": 0.12,
+    "fileSize": 337.54,
+    "gzipSize": 88.48
+  },
+  {
+    "modules": [
+      "ColumnHoverModule"
+    ],
+    "selfSize": 1.59,
+    "fileSize": 339.01,
+    "gzipSize": 88.82
+  },
+  {
+    "modules": [
+      "ColumnMoveApiModule"
+    ],
+    "selfSize": 33.03,
+    "fileSize": 370.45,
+    "gzipSize": 97.87
+  },
+  {
+    "modules": [
+      "ColumnMoveCoreModule"
+    ],
+    "selfSize": 32.79,
+    "fileSize": 370.21,
+    "gzipSize": 97.81
+  },
+  {
+    "modules": [
+      "ColumnMoveModule"
+    ],
+    "selfSize": 33.08,
+    "fileSize": 370.5,
+    "gzipSize": 97.88
+  },
+  {
+    "modules": [
+      "ColumnResizeApiModule"
+    ],
+    "selfSize": 14.84,
+    "fileSize": 352.26,
+    "gzipSize": 92.47
+  },
+  {
+    "modules": [
+      "ColumnResizeCoreModule"
+    ],
+    "selfSize": 14.67,
+    "fileSize": 352.09,
+    "gzipSize": 92.42
+  },
+  {
+    "modules": [
+      "ColumnResizeModule"
+    ],
+    "selfSize": 14.89,
+    "fileSize": 352.31,
+    "gzipSize": 92.47
+  },
+  {
+    "modules": [
+      "CommunityFeaturesModule"
+    ],
+    "selfSize": 479.3,
+    "fileSize": 816.72,
+    "gzipSize": 215.7
+  },
+  {
+    "modules": [
+      "CommunityMenuApiModule"
+    ],
+    "selfSize": 0.31,
+    "fileSize": 337.73,
+    "gzipSize": 88.55
+  },
+  {
+    "modules": [
+      "_CsrmSsrmSharedApiModule"
+    ],
+    "selfSize": 0.48,
+    "fileSize": 337.9,
+    "gzipSize": 88.58
+  },
+  {
+    "modules": [
+      "CsvExportApiModule"
+    ],
+    "selfSize": 11.29,
+    "fileSize": 348.71,
+    "gzipSize": 91.65
+  },
+  {
+    "modules": [
+      "CsvExportCoreModule"
+    ],
+    "selfSize": 11.04,
+    "fileSize": 348.46,
+    "gzipSize": 91.58
+  },
+  {
+    "modules": [
+      "CsvExportModule"
+    ],
+    "selfSize": 11.33,
+    "fileSize": 348.75,
+    "gzipSize": 91.66
+  },
+  {
+    "modules": [
+      "DataTypeEditorsModule"
+    ],
+    "selfSize": 31.96,
+    "fileSize": 369.38,
+    "gzipSize": 97.76
+  },
+  {
+    "modules": [
+      "DataTypeModule"
+    ],
+    "selfSize": 21.45,
+    "fileSize": 358.87,
+    "gzipSize": 94.22
+  },
+  {
+    "modules": [
+      "DefaultEditorModule"
+    ],
+    "selfSize": 22.97,
+    "fileSize": 360.39,
+    "gzipSize": 95.49
+  },
+  {
+    "modules": [
+      "DragAndDropModule"
+    ],
+    "selfSize": 14.64,
+    "fileSize": 352.06,
+    "gzipSize": 92.46
+  },
+  {
+    "modules": [
+      "DragModule"
+    ],
+    "selfSize": 4.54,
+    "fileSize": 341.96,
+    "gzipSize": 89.62
+  },
+  {
+    "modules": [
+      "EditApiModule"
+    ],
+    "selfSize": 16.88,
+    "fileSize": 354.3,
+    "gzipSize": 93.69
+  },
+  {
+    "modules": [
+      "EditCoreModule"
+    ],
+    "selfSize": 15.03,
+    "fileSize": 352.45,
+    "gzipSize": 93.18
+  },
+  {
+    "modules": [
+      "EditModule"
+    ],
+    "selfSize": 55.43,
+    "fileSize": 392.85,
+    "gzipSize": 103.66
+  },
+  {
+    "modules": [
+      "EventApiModule"
+    ],
+    "selfSize": 2.65,
+    "fileSize": 340.07,
+    "gzipSize": 88.99
+  },
+  {
+    "modules": [
+      "ExpressionModule"
+    ],
+    "selfSize": 0.87,
+    "fileSize": 338.29,
+    "gzipSize": 88.68
+  },
+  {
+    "modules": [
+      "FilterApiModule"
+    ],
+    "selfSize": 12.21,
+    "fileSize": 349.63,
+    "gzipSize": 90.82
+  },
+  {
+    "modules": [
+      "FilterCoreModule"
+    ],
+    "selfSize": 11.94,
+    "fileSize": 349.36,
+    "gzipSize": 90.75
+  },
+  {
+    "modules": [
       "FilterModule"
     ],
-    "fileSize": 517.26,
-    "gzipSize": 135.47
+    "selfSize": 138.4,
+    "fileSize": 475.82,
+    "gzipSize": 123.66
+  },
+  {
+    "modules": [
+      "FilterValueModule"
+    ],
+    "selfSize": 0.61,
+    "fileSize": 338.03,
+    "gzipSize": 88.55
+  },
+  {
+    "modules": [
+      "FloatingFilterCoreModule"
+    ],
+    "selfSize": 43.32,
+    "fileSize": 380.74,
+    "gzipSize": 99.66
+  },
+  {
+    "modules": [
+      "FloatingFilterModule"
+    ],
+    "selfSize": 43.37,
+    "fileSize": 380.79,
+    "gzipSize": 99.67
+  },
+  {
+    "modules": [
+      "FullRowEditModule"
+    ],
+    "selfSize": 15.86,
+    "fileSize": 353.28,
+    "gzipSize": 93.4
+  },
+  {
+    "modules": [
+      "GetColumnDefsApiModule"
+    ],
+    "selfSize": 1.77,
+    "fileSize": 339.19,
+    "gzipSize": 89.01
+  },
+  {
+    "modules": [
+      "HorizontalResizeModule"
+    ],
+    "selfSize": 5.58,
+    "fileSize": 343,
+    "gzipSize": 89.92
+  },
+  {
+    "modules": [
+      "InfiniteRowModelApiModule"
+    ],
+    "selfSize": 18.18,
+    "fileSize": 355.6,
+    "gzipSize": 93.21
+  },
+  {
+    "modules": [
+      "InfiniteRowModelCoreModule"
+    ],
+    "selfSize": 17.21,
+    "fileSize": 354.63,
+    "gzipSize": 92.94
+  },
+  {
+    "modules": [
+      "InfiniteRowModelModule"
+    ],
+    "selfSize": 491.88,
+    "fileSize": 829.3,
+    "gzipSize": 219.01
+  },
+  {
+    "modules": [
+      "KeyboardNavigationApiModule"
+    ],
+    "selfSize": 20.44,
+    "fileSize": 357.86,
+    "gzipSize": 93.39
+  },
+  {
+    "modules": [
+      "KeyboardNavigationCoreModule"
+    ],
+    "selfSize": 19.73,
+    "fileSize": 357.15,
+    "gzipSize": 93.23
+  },
+  {
+    "modules": [
+      "KeyboardNavigationModule"
+    ],
+    "selfSize": 20.5,
+    "fileSize": 357.92,
+    "gzipSize": 93.4
+  },
+  {
+    "modules": [
+      "LargeTextEditorModule"
+    ],
+    "selfSize": 21.64,
+    "fileSize": 359.06,
+    "gzipSize": 95.07
+  },
+  {
+    "modules": [
+      "LoadingOverlayModule"
+    ],
+    "selfSize": 7.32,
+    "fileSize": 344.74,
+    "gzipSize": 90.27
+  },
+  {
+    "modules": [
+      "LocaleModule"
+    ],
+    "selfSize": 0.44,
+    "fileSize": 337.86,
+    "gzipSize": 88.58
+  },
+  {
+    "modules": [
+      "NativeDragModule"
+    ],
+    "selfSize": 0.93,
+    "fileSize": 338.35,
+    "gzipSize": 88.8
+  },
+  {
+    "modules": [
+      "NoRowsOverlayModule"
+    ],
+    "selfSize": 7.28,
+    "fileSize": 344.7,
+    "gzipSize": 90.26
+  },
+  {
+    "modules": [
+      "OverlayApiModule"
+    ],
+    "selfSize": 7.14,
+    "fileSize": 344.56,
+    "gzipSize": 90.18
+  },
+  {
+    "modules": [
+      "OverlayCoreModule"
+    ],
+    "selfSize": 6.83,
+    "fileSize": 344.25,
+    "gzipSize": 90.12
+  },
+  {
+    "modules": [
+      "OverlayModule"
+    ],
+    "selfSize": 8.05,
+    "fileSize": 345.47,
+    "gzipSize": 90.43
+  },
+  {
+    "modules": [
+      "PaginationApiModule"
+    ],
+    "selfSize": 36.45,
+    "fileSize": 373.87,
+    "gzipSize": 97.45
+  },
+  {
+    "modules": [
+      "PaginationCoreModule"
+    ],
+    "selfSize": 35.44,
+    "fileSize": 372.86,
+    "gzipSize": 97.23
+  },
+  {
+    "modules": [
+      "PaginationModule"
+    ],
+    "selfSize": 36.49,
+    "fileSize": 373.91,
+    "gzipSize": 97.47
+  },
+  {
+    "modules": [
+      "PinnedColumnModule"
+    ],
+    "selfSize": 4.07,
+    "fileSize": 341.49,
+    "gzipSize": 89.46
+  },
+  {
+    "modules": [
+      "PinnedRowApiModule"
+    ],
+    "selfSize": 9.45,
+    "fileSize": 346.87,
+    "gzipSize": 90.96
+  },
+  {
+    "modules": [
+      "PinnedRowCoreModule"
+    ],
+    "selfSize": 8.95,
+    "fileSize": 346.37,
+    "gzipSize": 90.87
+  },
+  {
+    "modules": [
+      "PinnedRowModule"
+    ],
+    "selfSize": 9.49,
+    "fileSize": 346.91,
+    "gzipSize": 90.96
+  },
+  {
+    "modules": [
+      "PopupModule"
+    ],
+    "selfSize": 9.75,
+    "fileSize": 347.17,
+    "gzipSize": 91.6
+  },
+  {
+    "modules": [
+      "QuickFilterApiModule"
+    ],
+    "selfSize": 16.73,
+    "fileSize": 354.15,
+    "gzipSize": 91.79
+  },
+  {
+    "modules": [
+      "QuickFilterCoreModule"
+    ],
+    "selfSize": 16.39,
+    "fileSize": 353.81,
+    "gzipSize": 91.7
+  },
+  {
+    "modules": [
+      "QuickFilterModule"
+    ],
+    "selfSize": 16.77,
+    "fileSize": 354.19,
+    "gzipSize": 91.81
+  },
+  {
+    "modules": [
+      "ReadOnlyFloatingFilterModule"
+    ],
+    "selfSize": 50.17,
+    "fileSize": 387.59,
+    "gzipSize": 101.6
+  },
+  {
+    "modules": [
+      "RenderApiModule"
+    ],
+    "selfSize": 1.5,
+    "fileSize": 338.92,
+    "gzipSize": 88.88
+  },
+  {
+    "modules": [
+      "RowApiModule"
+    ],
+    "selfSize": 0.91,
+    "fileSize": 338.33,
+    "gzipSize": 88.67
+  },
+  {
+    "modules": [
+      "RowAutoHeightModule"
+    ],
+    "selfSize": 1.85,
+    "fileSize": 339.27,
+    "gzipSize": 89.04
+  },
+  {
+    "modules": [
+      "RowDragApiModule"
+    ],
+    "selfSize": 27.95,
+    "fileSize": 365.37,
+    "gzipSize": 95.75
+  },
+  {
+    "modules": [
+      "RowDragCoreModule"
+    ],
+    "selfSize": 27.47,
+    "fileSize": 364.89,
+    "gzipSize": 95.61
+  },
+  {
+    "modules": [
+      "RowDragModule"
+    ],
+    "selfSize": 27.99,
+    "fileSize": 365.41,
+    "gzipSize": 95.75
+  },
+  {
+    "modules": [
+      "RowSelectionApiModule"
+    ],
+    "selfSize": 1.36,
+    "fileSize": 338.78,
+    "gzipSize": 88.74
+  },
+  {
+    "modules": [
+      "RowSelectionCoreModule"
+    ],
+    "selfSize": 35.38,
+    "fileSize": 372.8,
+    "gzipSize": 97.93
+  },
+  {
+    "modules": [
+      "RowSelectionModule"
+    ],
+    "selfSize": 36.77,
+    "fileSize": 374.19,
+    "gzipSize": 98.21
+  },
+  {
+    "modules": [
+      "RowStyleModule"
+    ],
+    "selfSize": 1.25,
+    "fileSize": 338.67,
+    "gzipSize": 88.87
+  },
+  {
+    "modules": [
+      "ScrollApiModule"
+    ],
+    "selfSize": 0.79,
+    "fileSize": 338.21,
+    "gzipSize": 88.56
+  },
+  {
+    "modules": [
+      "SelectEditorModule"
+    ],
+    "selfSize": 32.55,
+    "fileSize": 369.97,
+    "gzipSize": 97.9
+  },
+  {
+    "modules": [
+      "SelectionColumnModule"
+    ],
+    "selfSize": 2.55,
+    "fileSize": 339.97,
+    "gzipSize": 89.15
+  },
+  {
+    "modules": [
+      "SharedMenuModule"
+    ],
+    "selfSize": 2.6,
+    "fileSize": 340.02,
+    "gzipSize": 89.08
+  },
+  {
+    "modules": [
+      "SimpleFilterModule"
+    ],
+    "selfSize": 109.37,
+    "fileSize": 446.79,
+    "gzipSize": 116.84
+  },
+  {
+    "modules": [
+      "SimpleFloatingFilterModule"
+    ],
+    "selfSize": 124.69,
+    "fileSize": 462.11,
+    "gzipSize": 120.14
+  },
+  {
+    "modules": [
+      "SortApiModule"
+    ],
+    "selfSize": 9.13,
+    "fileSize": 346.55,
+    "gzipSize": 91.04
+  },
+  {
+    "modules": [
+      "SortCoreModule"
+    ],
+    "selfSize": 8.99,
+    "fileSize": 346.41,
+    "gzipSize": 91
+  },
+  {
+    "modules": [
+      "SortIndicatorCompModule"
+    ],
+    "selfSize": 9.14,
+    "fileSize": 346.56,
+    "gzipSize": 91.04
+  },
+  {
+    "modules": [
+      "SortModule"
+    ],
+    "selfSize": 9.33,
+    "fileSize": 346.75,
+    "gzipSize": 91.1
+  },
+  {
+    "modules": [
+      "_SsrmInfiniteSharedApiModule"
+    ],
+    "selfSize": 0.65,
+    "fileSize": 338.07,
+    "gzipSize": 88.65
+  },
+  {
+    "modules": [
+      "StateApiModule"
+    ],
+    "selfSize": 13.22,
+    "fileSize": 350.64,
+    "gzipSize": 91.76
+  },
+  {
+    "modules": [
+      "StateCoreModule"
+    ],
+    "selfSize": 13.08,
+    "fileSize": 350.5,
+    "gzipSize": 91.72
+  },
+  {
+    "modules": [
+      "StateModule"
+    ],
+    "selfSize": 13.27,
+    "fileSize": 350.69,
+    "gzipSize": 91.77
+  },
+  {
+    "modules": [
+      "StickyRowModule"
+    ],
+    "selfSize": 6.61,
+    "fileSize": 344.03,
+    "gzipSize": 90.15
+  },
+  {
+    "modules": [
+      "TooltipCoreModule"
+    ],
+    "selfSize": 21.69,
+    "fileSize": 359.11,
+    "gzipSize": 94.53
+  },
+  {
+    "modules": [
+      "TooltipCompModule"
+    ],
+    "selfSize": 0.45,
+    "fileSize": 337.87,
+    "gzipSize": 88.59
+  },
+  {
+    "modules": [
+      "TooltipModule"
+    ],
+    "selfSize": 22.16,
+    "fileSize": 359.58,
+    "gzipSize": 94.69
+  },
+  {
+    "modules": [
+      "UndoRedoEditModule"
+    ],
+    "selfSize": 20.44,
+    "fileSize": 357.86,
+    "gzipSize": 94.58
+  },
+  {
+    "modules": [
+      "ValidationModule"
+    ],
+    "selfSize": 66.62,
+    "fileSize": 404.04,
+    "gzipSize": 107.61
+  },
+  {
+    "modules": [
+      "ValueCacheModule"
+    ],
+    "selfSize": 0.66,
+    "fileSize": 338.08,
+    "gzipSize": 88.6
+  },
+  {
+    "modules": [
+      "AdvancedFilterApiModule"
+    ],
+    "selfSize": 102.02,
+    "fileSize": 439.44,
+    "gzipSize": 115.5
+  },
+  {
+    "modules": [
+      "AdvancedFilterCoreModule"
+    ],
+    "selfSize": 102.02,
+    "fileSize": 439.44,
+    "gzipSize": 115.5
+  },
+  {
+    "modules": [
+      "AdvancedFilterModule"
+    ],
+    "selfSize": 102.02,
+    "fileSize": 439.44,
+    "gzipSize": 115.5
+  },
+  {
+    "modules": [
+      "AggregationModule"
+    ],
+    "selfSize": 86.21,
+    "fileSize": 423.63,
+    "gzipSize": 111.63
+  },
+  {
+    "modules": [
+      "ClientSideRowModelExpansionModule"
+    ],
+    "selfSize": 86.15,
+    "fileSize": 423.57,
+    "gzipSize": 111.62
+  },
+  {
+    "modules": [
+      "ClipboardApiModule"
+    ],
+    "selfSize": 100.13,
+    "fileSize": 437.55,
+    "gzipSize": 115.74
+  },
+  {
+    "modules": [
+      "ClipboardCoreModule"
+    ],
+    "selfSize": 100.13,
+    "fileSize": 437.55,
+    "gzipSize": 115.74
+  },
+  {
+    "modules": [
+      "ClipboardModule"
+    ],
+    "selfSize": 100.13,
+    "fileSize": 437.55,
+    "gzipSize": 115.74
+  },
+  {
+    "modules": [
+      "ColumnChooserModule"
+    ],
+    "selfSize": 90.61,
+    "fileSize": 428.03,
+    "gzipSize": 112.82
+  },
+  {
+    "modules": [
+      "ColumnMenuModule"
+    ],
+    "selfSize": 90.18,
+    "fileSize": 427.6,
+    "gzipSize": 112.66
+  },
+  {
+    "modules": [
+      "ColumnsToolPanelCoreModule"
+    ],
+    "selfSize": 106.29,
+    "fileSize": 443.71,
+    "gzipSize": 117.59
+  },
+  {
+    "modules": [
+      "ColumnsToolPanelModule"
+    ],
+    "selfSize": 175.51,
+    "fileSize": 512.93,
+    "gzipSize": 136.13
+  },
+  {
+    "modules": [
+      "ColumnsToolPanelRowGroupingModule"
+    ],
+    "selfSize": 116.1,
+    "fileSize": 453.52,
+    "gzipSize": 120.55
+  },
+  {
+    "modules": [
+      "ContextMenuModule"
+    ],
+    "selfSize": 88.63,
+    "fileSize": 426.05,
+    "gzipSize": 112.22
+  },
+  {
+    "modules": [
+      "EnterpriseCoreModule"
+    ],
+    "selfSize": 86.02,
+    "fileSize": 423.44,
+    "gzipSize": 111.58
+  },
+  {
+    "modules": [
+      "ExcelExportApiModule"
+    ],
+    "selfSize": 97.1,
+    "fileSize": 434.52,
+    "gzipSize": 114.81
+  },
+  {
+    "modules": [
+      "ExcelExportCoreModule"
+    ],
+    "selfSize": 97.1,
+    "fileSize": 434.52,
+    "gzipSize": 114.81
+  },
+  {
+    "modules": [
+      "ExcelExportModule"
+    ],
+    "selfSize": 97.1,
+    "fileSize": 434.52,
+    "gzipSize": 114.81
+  },
+  {
+    "modules": [
+      "FiltersToolPanelModule"
+    ],
+    "selfSize": 116.47,
+    "fileSize": 453.89,
+    "gzipSize": 119.13
+  },
+  {
+    "modules": [
+      "GridChartsApiModule"
+    ],
+    "selfSize": 86.02,
+    "fileSize": 423.44,
+    "gzipSize": 111.58
+  },
+  {
+    "modules": [
+      "GridChartsCoreModule"
+    ],
+    "selfSize": 86.02,
+    "fileSize": 423.44,
+    "gzipSize": 111.58
+  },
+  {
+    "modules": [
+      "GridChartsModule"
+    ],
+    "selfSize": 86.02,
+    "fileSize": 423.44,
+    "gzipSize": 111.58
+  },
+  {
+    "modules": [
+      "GroupCellRendererModule"
+    ],
+    "selfSize": 86.23,
+    "fileSize": 423.65,
+    "gzipSize": 111.65
+  },
+  {
+    "modules": [
+      "GroupColumnModule"
+    ],
+    "selfSize": 90.04,
+    "fileSize": 427.46,
+    "gzipSize": 112.9
+  },
+  {
+    "modules": [
+      "GroupFilterModule"
+    ],
+    "selfSize": 124.6,
+    "fileSize": 462.02,
+    "gzipSize": 121.56
+  },
+  {
+    "modules": [
+      "GroupFloatingFilterModule"
+    ],
+    "selfSize": 130.79,
+    "fileSize": 468.21,
+    "gzipSize": 123.22
+  },
+  {
+    "modules": [
+      "LoadingCellRendererModule"
+    ],
+    "selfSize": 86.02,
+    "fileSize": 423.44,
+    "gzipSize": 111.58
+  },
+  {
+    "modules": [
+      "MasterDetailApiModule"
+    ],
+    "selfSize": 118.89,
+    "fileSize": 456.31,
+    "gzipSize": 119.96
+  },
+  {
+    "modules": [
+      "MasterDetailCoreModule"
+    ],
+    "selfSize": 118.89,
+    "fileSize": 456.31,
+    "gzipSize": 119.96
+  },
+  {
+    "modules": [
+      "MasterDetailModule"
+    ],
+    "selfSize": 119.02,
+    "fileSize": 456.44,
+    "gzipSize": 119.99
+  },
+  {
+    "modules": [
+      "MenuApiModule"
+    ],
+    "selfSize": 90.92,
+    "fileSize": 428.34,
+    "gzipSize": 112.93
+  },
+  {
+    "modules": [
+      "MenuCoreModule"
+    ],
+    "selfSize": 88.62,
+    "fileSize": 426.04,
+    "gzipSize": 112.21
+  },
+  {
+    "modules": [
+      "MenuModule"
+    ],
+    "selfSize": 90.92,
+    "fileSize": 428.34,
+    "gzipSize": 112.93
+  },
+  {
+    "modules": [
+      "MultiFilterCoreModule"
+    ],
+    "selfSize": 120.16,
+    "fileSize": 457.58,
+    "gzipSize": 120.24
+  },
+  {
+    "modules": [
+      "MultiFilterModule"
+    ],
+    "selfSize": 127.22,
+    "fileSize": 464.64,
+    "gzipSize": 122.17
+  },
+  {
+    "modules": [
+      "MultiFloatingFilterModule"
+    ],
+    "selfSize": 127.22,
+    "fileSize": 464.64,
+    "gzipSize": 122.17
+  },
+  {
+    "modules": [
+      "RangeSelectionModule"
+    ],
+    "selfSize": 86.02,
+    "fileSize": 423.44,
+    "gzipSize": 111.58
+  },
+  {
+    "modules": [
+      "RichSelectModule"
+    ],
+    "selfSize": 92.89,
+    "fileSize": 430.31,
+    "gzipSize": 113.86
+  },
+  {
+    "modules": [
+      "RowGroupingApiModule"
+    ],
+    "selfSize": 95.77,
+    "fileSize": 433.19,
+    "gzipSize": 114.53
+  },
+  {
+    "modules": [
+      "RowGroupingCoreModule"
+    ],
+    "selfSize": 95.77,
+    "fileSize": 433.19,
+    "gzipSize": 114.53
+  },
+  {
+    "modules": [
+      "RowGroupingModule"
+    ],
+    "selfSize": 155.38,
+    "fileSize": 492.8,
+    "gzipSize": 130.23
+  },
+  {
+    "modules": [
+      "RowGroupingNoPivotModule"
+    ],
+    "selfSize": 137.53,
+    "fileSize": 474.95,
+    "gzipSize": 124.93
+  },
+  {
+    "modules": [
+      "RowGroupingPanelModule"
+    ],
+    "selfSize": 95.87,
+    "fileSize": 433.29,
+    "gzipSize": 114.57
+  },
+  {
+    "modules": [
+      "ServerSideRowModelApiModule"
+    ],
+    "selfSize": 104.88,
+    "fileSize": 442.3,
+    "gzipSize": 116.79
+  },
+  {
+    "modules": [
+      "ServerSideRowModelCoreModule"
+    ],
+    "selfSize": 103.83,
+    "fileSize": 441.25,
+    "gzipSize": 116.48
+  },
+  {
+    "modules": [
+      "ServerSideRowModelModule"
+    ],
+    "selfSize": 485.58,
+    "fileSize": 823,
+    "gzipSize": 217.79
+  },
+  {
+    "modules": [
+      "ServerSideRowModelRowGroupingModule"
+    ],
+    "selfSize": 103.84,
+    "fileSize": 441.26,
+    "gzipSize": 116.48
+  },
+  {
+    "modules": [
+      "ServerSideRowModelRowSelectionModule"
+    ],
+    "selfSize": 103.83,
+    "fileSize": 441.25,
+    "gzipSize": 116.48
+  },
+  {
+    "modules": [
+      "ServerSideRowModelSortModule"
+    ],
+    "selfSize": 113.15,
+    "fileSize": 450.57,
+    "gzipSize": 119.23
+  },
+  {
+    "modules": [
+      "SetFilterCoreModule"
+    ],
+    "selfSize": 120.84,
+    "fileSize": 458.26,
+    "gzipSize": 120.5
+  },
+  {
+    "modules": [
+      "SetFilterModule"
+    ],
+    "selfSize": 127.02,
+    "fileSize": 464.44,
+    "gzipSize": 122.17
+  },
+  {
+    "modules": [
+      "SetFloatingFilterModule"
+    ],
+    "selfSize": 127.02,
+    "fileSize": 464.44,
+    "gzipSize": 122.17
+  },
+  {
+    "modules": [
+      "SideBarApiModule"
+    ],
+    "selfSize": 87.42,
+    "fileSize": 424.84,
+    "gzipSize": 112.01
+  },
+  {
+    "modules": [
+      "SideBarCoreModule"
+    ],
+    "selfSize": 87.3,
+    "fileSize": 424.72,
+    "gzipSize": 111.98
+  },
+  {
+    "modules": [
+      "SideBarModule"
+    ],
+    "selfSize": 87.42,
+    "fileSize": 424.84,
+    "gzipSize": 112.01
+  },
+  {
+    "modules": [
+      "SkeletonCellRendererModule"
+    ],
+    "selfSize": 86.03,
+    "fileSize": 423.45,
+    "gzipSize": 111.58
+  },
+  {
+    "modules": [
+      "SparklinesModule"
+    ],
+    "selfSize": 86.02,
+    "fileSize": 423.44,
+    "gzipSize": 111.58
+  },
+  {
+    "modules": [
+      "StatusBarApiModule"
+    ],
+    "selfSize": 86.44,
+    "fileSize": 423.86,
+    "gzipSize": 111.74
+  },
+  {
+    "modules": [
+      "StatusBarCoreModule"
+    ],
+    "selfSize": 86.32,
+    "fileSize": 423.74,
+    "gzipSize": 111.71
+  },
+  {
+    "modules": [
+      "StatusBarModule"
+    ],
+    "selfSize": 86.44,
+    "fileSize": 423.86,
+    "gzipSize": 111.74
+  },
+  {
+    "modules": [
+      "StatusBarSelectionModule"
+    ],
+    "selfSize": 86.32,
+    "fileSize": 423.74,
+    "gzipSize": 111.71
+  },
+  {
+    "modules": [
+      "TreeDataCoreModule"
+    ],
+    "selfSize": 90.19,
+    "fileSize": 427.61,
+    "gzipSize": 112.93
+  },
+  {
+    "modules": [
+      "TreeDataModule"
+    ],
+    "selfSize": 109.18,
+    "fileSize": 446.6,
+    "gzipSize": 118.44
+  },
+  {
+    "modules": [
+      "ViewportRowModelCoreModule"
+    ],
+    "selfSize": 91.6,
+    "fileSize": 429.02,
+    "gzipSize": 113.2
+  },
+  {
+    "modules": [
+      "ViewportRowModelModule"
+    ],
+    "selfSize": 483.47,
+    "fileSize": 820.89,
+    "gzipSize": 217.05
   }
 ]

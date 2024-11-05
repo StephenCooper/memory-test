@@ -9,7 +9,7 @@ const moduleCombinations = [
   ['AnimateShowChangeCellRendererModule'],
   ['AnimateSlideCellRendererModule'],
   ['AnimationFrameModule'],
-  // ['AutoWidthModule'],
+  ['AutoWidthModule'],
   ['CellApiModule'],
   ['CellFlashModule'],
   ['CellRendererFunctionModule'],
