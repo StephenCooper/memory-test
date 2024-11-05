@@ -125,7 +125,7 @@ fs.readFile(filePath, "utf8", (err, data) => {
     `${entPlaceholderStartRgx}[\\s\\S]*?${entPlaceholderEndRgx}`,
     "g"
   );
-  result = data.replace(
+  result = result.replace(
     entRegex,
     `${entPlaceholderStart} ${entReplacement} ${entPlaceholderEnd}`
   );
