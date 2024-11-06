@@ -9,17 +9,17 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "set-modules": "node updateModules.cjs",
-    "module-stats": "npm i --registry http://52.50.158.57:4873/ && node runModuleCombinations.cjs",
-    "ag-grid-community": "32.3.0",
-    "ag-grid-react": "32.3.0",
+    "module-stats": "npm i && node runModuleCombinations.cjs",
+    "ag-grid-community1": "32.3.0",
+    "ag-grid-react1": "32.3.0",
     "ag-charts-types": "file:~/ag-charts-types-10.3.1-beta.20241103.tgz",
     "ag-grid-community": "file:~/ag-grid-community-32.2.0.tgz",
     "ag-grid-react": "file:~/ag-grid-react-32.2.0.tgz"
   },
   "dependencies": {
-    "ag-grid-react": "32.2.0-beta.20241105",
-    "ag-grid-community": "32.2.0-beta.20241105",
-    "ag-grid-enterprise": "32.2.0-beta.20241105",
+    "ag-grid-react": "32.2.0-beta.20241106",
+    "ag-grid-community": "32.2.0-beta.20241106",
+    "ag-grid-enterprise": "32.2.0-beta.20241106",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },

@@ -39,6 +39,7 @@ const ENTERPRISE_MODULES = [
      'GridChartsApiModule',
      'GridChartsCoreModule',
      'GridChartsEnterpriseFeaturesModule',
+     'GridChartsEnterpriseModule',
      'GridChartsModule',
      'GroupCellRendererModule',
      'GroupColumnModule',
